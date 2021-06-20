@@ -46,7 +46,8 @@ libdisplayconfig_cc_defaults {
         "surfaceflinger_defaults",
         "libdisplayconfig_defaults",
         "disable_postrender_cleanup_defaults",
-        "surfaceflinger_qcom_ext_defaults"
+        "surfaceflinger_qcom_ext_defaults",
+        "display_intf_headers_qssi"
     ],
     cflags: [
         "-DLOG_TAG=\"SurfaceFlinger\"",

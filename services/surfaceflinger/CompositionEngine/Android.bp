@@ -8,7 +8,8 @@ libdisplayconfig_cc_defaults {
     defaults: [
         "surfaceflinger_defaults",
         "libdisplayconfig_defaults",
-        "surfaceflinger_qcom_ext_defaults"
+        "surfaceflinger_qcom_ext_defaults",
+        "display_intf_headers_qssi"
     ],
     cflags: [
         "-DLOG_TAG=\"CompositionEngine\"",
